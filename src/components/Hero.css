@@ -12,7 +12,7 @@
 .hero__bg {
   position: absolute;
   inset: 0;
-  background-image: url('/desk_background.png');
+  background-image: url('/sc.jpg.jpeg');
   background-size: cover;
   background-position: center 20%;
   transform: scale(1.1);
@@ -24,9 +24,10 @@
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(to right, var(--bg) 0%, rgba(6,6,6,0.85) 35%, rgba(6,6,6,0.3) 70%, rgba(6,6,6,0.6) 100%),
-    linear-gradient(to top, var(--bg) 0%, transparent 40%),
-    linear-gradient(to bottom, var(--bg) 0%, transparent 30%);
+  
+    linear-gradient(to right, var(--bg) 0%, rgba(6,6,6,0.85) 0%, rgba(6,6,6,0.3) 70%, rgba(6,6,6,0.6) 100%),
+    linear-gradient(to top, var(--bg) 0%, transparent 0%),
+    linear-gradient(to bottom, var(--bg) 0%, transparent 0%);
   z-index: 1;
 }
 
@@ -221,6 +222,6 @@
 }
 
 [data-theme="light"] .hero__name {
-  color: #0f172a;
+  color:  #DDE4DF;
   text-shadow: none;
 }

@@ -3,10 +3,20 @@ import { motion } from 'framer-motion';
 import './ProjectsTerminal.css';
 
 const projects = [
-  {
+  
+{
     id: 1,
+    name: "AKI | Distributed Knowledge Processing & Retrieval System",
+    description: "Built an RAG-based knowledge platform integrating 5+ data sources with scalable Kafka ingestion and hybrid retrieval for high-precision search.",
+    stack: ["Python", "FastAPI", "React", "Kafka","LLM/RAG","Docker","Kubernetes"],
+    builtIn: "1 month",
+    githubUrl: "https://github.com/shubham5400E/AKI-Platform",
+    pin: true,
+  },  
+{
+    id: 2,
     name: "Violence Detection System",
-    description: "Developed an end-to-end AI system for detecting violent activity in real time..",
+    description: "Developed an end-to-end AI system for detecting violent activity in real time.",
     stack: ["TypeScript", "React", "Firebase", "OpenCV"],
     builtIn: "3 weeks",
     liveUrl: "https://violence-detector.vercel.app/",
@@ -14,7 +24,7 @@ const projects = [
     pin: true,
   },
   {
-    id: 2,
+    id: 3,
     name: "Web3Quest",
     description: "Web3 Gamified Learning with Onchain Proofs.",
     stack: ["Blockchain", "React", "Vite", "Supabase", "Smart Contracts"],
@@ -23,7 +33,7 @@ const projects = [
     pin: true,
   },
   {
-    id: 3,
+    id: 4,
     name: "Civic Issue Reporting System",
     description: "AI-powered grievance management system. Streamlines complaint filing and resolution tracking with intelligent categorization.",
     stack: ["TypeScript", "React Native", "Supabase", "React", "Tailwind"],
@@ -32,7 +42,7 @@ const projects = [
     pin: true,
   },
   {
-    id: 4,
+    id: 5,
     name: "College Finder",
     description: "Built a full-stack College Finder web application for personalized college search and exploration.",
     stack: ["TypeScript", "React", "Tailwind", "Vite"],
@@ -42,7 +52,7 @@ const projects = [
     pin: false,
   },
   {
-    id: 5,
+    id: 6,
     name: "AI-Powered Gamified Financial Literacy Platform",
     description: "Developed a full-stack AI-powered financial literacy platform with personalized learning, budgeting simulations, quizzes, and progress analytics to promote smart financial habits among youth.",
     stack: ["TypeScript", "React", "Tailwind","Grok Api "],
