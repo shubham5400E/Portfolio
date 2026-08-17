@@ -7,6 +7,13 @@
   justify-content: center;
 }
 
+@media (max-width: 768px) {
+  .experience {
+    width: 100%;
+    min-height: unset;
+  }
+}
+
 .experience__inner {
   width: 100%;
   max-width: 1200px;
@@ -44,7 +51,7 @@
 /* Grid */
 .experience__grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 24px;
 }
 
@@ -150,12 +157,31 @@
 
 @media (max-width: 768px) {
   .experience__inner {
-    padding: 80px 24px;
+    padding: 60px 20px;
   }
   .experience__grid {
     grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .exp-card {
+    padding: 24px 20px;
+  }
+  .exp-card__company {
+    font-size: 19px;
+    letter-spacing: -0.3px;
+  }
+  .exp-card__year {
+    font-size: 12px;
+  }
+  .exp-card__role {
+    font-size: 14px;
+  }
+  .exp-card__tag {
+    font-size: 11px;
+    padding: 4px 10px;
   }
 }
+
 
 [data-theme="light"] .exp-card {
   background: rgba(255, 255, 255, 0.9);
