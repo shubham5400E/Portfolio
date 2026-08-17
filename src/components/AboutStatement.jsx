@@ -44,7 +44,7 @@ const AboutStatement = () => {
               {/* Hexagon Profile Image */}
               <div className="hexagon-wrapper">
                 <div className="hexagon-outer">
-                  <img src="/sh21.jpg.jpeg" alt="Shubham Chaudhari" className="hexagon-inner" />
+                  <img src="/sh21.jpg" alt="Shubham Chaudhari" className="hexagon-inner" />
                 </div>
               </div>
             </div>
