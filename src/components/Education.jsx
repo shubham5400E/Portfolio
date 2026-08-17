@@ -8,7 +8,7 @@ const educationData = [
     degree: "Bachelor of Engineering - BE, Computer Engineering",
     institution: "Dr. D. Y. Patil Institute of Technology, Pimpri, Pune",
     year: "Aug 2025 — May 2028",
-    grade: "9.55 SGPA",
+    grade: "9.16 CGPA",
     details: "Focusing on Artificial Intelligence and Backend ."
   },
   {

@@ -79,7 +79,7 @@ const Navbar = () => {
               {l.label}
             </Link>
           ))}
-          <a href="mailto:yuvrajsc42@gmail.com" className="nav__cta">
+          <a href="mailto:shubhamchaudhari2007@gmail.com" className="nav__cta">
             Let's talk
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m7 17 9.2-9.2M17 17V7H7"/></svg>
           </a>

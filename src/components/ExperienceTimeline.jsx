@@ -5,9 +5,9 @@ import './ExperienceTimeline.css';
 const experiences = [
   
   {
-    year: "May 2024 — Sep 2024",
+    year: "june 2024 — july 2024",
     company: "Mountreach Solution Pvt. Ltd.",
-    role: "Android Developer (Internship)",
+    role: "Android Developer (Industrial Training)",
     tags: ["Mobile App Development", "Android Studio"],
     note: "Hybrid • Amravati, Maharashtra, India"
   }
